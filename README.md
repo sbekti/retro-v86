@@ -6,27 +6,27 @@ A Windows 1.0 VM based on v86 Javascript x86 emulator.
 
 Clone the repo
 
-  	git clone https://github.com/sbekti/retro-v86.git
+    git clone https://github.com/sbekti/retro-v86.git
 
 Switch to project directory
 
-  	cd retro-v86
+    cd retro-v86
 
 Install project dependencies
 
-	  npm install
+    npm install
 
 Rebuild client bundle
 
-	  gulp
+    gulp
 
 Start server
 
-  	npm start
+    npm start
 
 Open in browser
 
-	  http://localhost:5000/
+    http://localhost:5000/
 
 ## Technology Stack
 
