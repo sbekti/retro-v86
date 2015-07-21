@@ -36,14 +36,6 @@ socket.on('count', function(count) {
   onlineCount.innerHTML = count;
 });
 
-var x = canvas.width / 2;
-var y = canvas.height / 2;
-
-context.font = '30pt Tahoma';
-context.textAlign = 'center';
-context.fillStyle = 'white';
-context.fillText('Loading VM...', x, y);
-
 // Hiring smart people
 if (typeof console !== 'undefined' && typeof console.log === 'function' && !window.test) {
   console.log('\r\n%c                     *      .--.\r\n%c                           \/ \/  `\r\n%c          +               | |\r\n%c                 \'         \\ \\__,\r\n%c             *          +   \'--\'  *\r\n%c                 +   \/\\\r\n%c    +              .\'  \'.   *\r\n%c           *      \/======\\      +\r\n%c                 ;:.  _   ;\r\n%c                 |:. (_)  |\r\n%c                 |:.  _   |\r\n%c       +         |:. (_)  |          *\r\n%c                 ;:.      ;\r\n%c               .\' \\:.    \/ `.\r\n%c              \/ .-\'\':._.\'`-. \\\r\n%c              |\/    \/||\\    \\|\r\n%c            _..--\"\"\"````\"\"\"--.._\r\n%c      _.-\'``                    ``\'-._\r\n%c    -\'         %cAnjinglah maneh%c        \'-\r\n%c',
