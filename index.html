@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Bekti Retro-as-a-Service (RaaS)</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Bekti Retro-as-a-Service (RaaS)</h1>
+    <p>See the <a href="https://www.youtube.com/watch?v=tGvHNNOLnCk" target="_blank">commercial</a> first, then try the REAL VM below.</p>
+    <div class="row screen">
+      <div id="screen_container">
+        <div style="white-space: pre; font: 14px monospace; line-height: 14px"></div>
+        <canvas style="display: none; margin: 0 auto; height: 350px;"></canvas>
+      </div>
+    </div>
+    <div class="row footer">
+      <p>Online users: <span id="online-count">updating...</span> | Copyright &copy; 2015 Samudra Harapan Bekti | <a href="http://bekti.io/">Bekti I/O</a></p>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.5/socket.io.min.js"></script>
+  <script src="/bundle.js"></script>
+</body>
+
+</html>
